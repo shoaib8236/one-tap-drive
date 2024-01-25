@@ -1,0 +1,124 @@
+//  create the colors typography and spacing variables
+
+$primary-color: #ffba00;
+$secondary-color: #ff6f00;
+$danger-color: #ff3d00;
+$success-color: #00c853;
+$info-color: #00b0ff;
+$warning-color: #ff9100;
+
+$dark-color: #212121;
+$light-color: #f5f5f5;
+$font-color: #333;
+$font-color-light: #777;
+$font-color-dark: #000;
+$border-color: #ccc;
+$border-color-light: #eee;
+$border-color-dark: #aaa;
+
+
+// primary color shades
+
+$primary-color-100: #fff9c4;
+$primary-color-200: #fff59d;
+$primary-color-300: #fff176;
+$primary-color-400: #ffee58;
+$primary-color-500: #ffeb3b;
+$primary-color-600: #fdd835;
+$primary-color-700: #fbc02d;
+$primary-color-800: #f9a825;
+$primary-color-900: #f57f17;
+
+
+// responsive font sizes paragraph 
+
+$font-xxs: 10px;
+$font-xs: 12px;
+$font-sm: 14px;
+$font-md: 16px;
+$font-lg: 18px;
+
+// responsive font sizes heading 
+
+$title-font-xxs : 18px;
+$title-font-xs : 22px;
+$title-font-sm : 26px;
+$title-font-md : 30px;
+$title-font-lg : 34px;
+
+
+// font weight variables
+
+$font-light: 300;
+$font-normal: 400;
+$font-bold: 700;
+$font-bolder: 900;
+
+// screen size breakpoints
+
+$breakpoint-xxs: 480px;
+$breakpoint-xs: 576px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+$breakpoint-xl: 1400px;
+
+// spacing variables
+
+$space-xxs: 5px;
+$space-xs: 10px;
+$space-sm: 15px;
+$space-md: 20px;
+$space-lg: 25px;
+$space-xl: 30px;
+$space-xxl: 35px;
+$space-xxxl: 40px;
+
+// z-index variables
+
+$z-index-1: 100;
+$z-index-2: 200;
+$z-index-3: 300;
+$z-index-4: 400;
+$z-index-5: 500;
+$z-index-6: 600;
+$z-index-7: 700;
+$z-index-8: 800;
+$z-index-9: 900;
+
+// border radius variables
+
+$border-radius-xxs: 2px;
+$border-radius-xs: 4px;
+$border-radius-sm: 6px;
+$border-radius-md: 8px;
+$border-radius-lg: 10px;
+$border-radius-xl: 12px;
+$border-radius-xxl: 14px;
+$border-radius-xxxl: 16px;
+
+
+// box shadow variables
+
+$box-shadow-xxs: 0 0 2px rgba(0, 0, 0, 0.1);
+$box-shadow-xs: 0 0 4px rgba(0, 0, 0, 0.1);
+$box-shadow-sm: 0 0 6px rgba(0, 0, 0, 0.1);
+$box-shadow-md: 0 0 8px rgba(0, 0, 0, 0.1);
+$box-shadow-lg: 0 0 10px rgba(0, 0, 0, 0.1);
+$box-shadow-xl: 0 0 12px rgba(0, 0, 0, 0.1);
+
+
+// border variables
+
+$border-light: 1px solid $border-color-light;
+$border-dark: 1px solid $border-color-dark;
+$border-primary: 1px solid $primary-color;
+
+
+// transition variables
+
+$transition-xxs: 0.1s;
+$transition-xs: 0.2s;
+$transition-sm: 0.3s;
+$transition-md: 0.4s;
+$transition-lg: 0.5s;
