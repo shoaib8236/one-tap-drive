@@ -1,0 +1,16 @@
+.__hero {
+    background-image: url('/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    padding: $space-xxxl * 2 0;
+
+    h1 {
+        font-size: $title-font-lg * 1.8;
+    }
+
+    p {
+        font-size: $font-lg;
+    }
+
+}

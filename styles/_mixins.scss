@@ -1,0 +1,188 @@
+@mixin margin($name, $position, $value) {
+    .#{$name} {
+        margin-#{$position}: $value;
+    }
+}
+
+@mixin padding($name, $position, $value) {
+    .#{$name} {
+        padding-#{$position}: $value;
+    }
+}
+
+
+@mixin spacing($name, $property, $value) {
+    .#{$name} {
+        #{$property}: $value;
+    }
+}
+
+// text color
+
+
+$colors: (
+    primary: $primary-color,
+    secondary: $secondary-color,
+    dark: $dark-color,
+    danger: $danger-color,
+    success: $success-color,
+    info: $info-color,
+    warning: $warning-color,
+    light: $light-color,
+    font: $font-color,
+    font-light: $font-color-light,
+    font-dark: $font-color-dark
+);
+
+@mixin text-colors($key) {
+    .text-#{$key} {
+        color: map-get($colors, $key);
+    }
+}
+
+// background color
+
+@mixin bg-colors($key) {
+    .bg-#{$key} {
+        background-color: map-get($colors, $key);
+    }
+}
+
+
+// border radius
+
+
+$radius: (
+    xxs: $border-radius-xxs,
+    xs: $border-radius-xs,
+    sm: $border-radius-sm,
+    md: $border-radius-md,
+    lg: $border-radius-lg,
+    xl: $border-radius-xl,
+    xxl: $border-radius-xxl,
+    xxxl: $border-radius-xxxl
+);
+
+@mixin border-radius($key) {
+    .radius-#{$key} {
+        border-radius: map-get($radius, $key);
+    }
+}
+
+
+// font weight
+
+
+$font-weights: (
+    light: $font-light,
+    normal: $font-normal,
+    medium: $font-medium,
+    semibold: $font-semibold,
+    bold: $font-bold,
+    bolder: $font-bolder
+);
+
+@mixin font-weight($key) {
+    .font-#{$key} {
+        font-weight: map-get($font-weights, $key);
+    }
+}
+
+
+// box shadow 
+
+
+$box-shadows: (
+    xxs: $box-shadow-xxs,
+    xs: $box-shadow-xs,
+    sm: $box-shadow-sm,
+    md: $box-shadow-md,
+    lg: $box-shadow-lg,
+    xl: $box-shadow-xl
+);
+
+@mixin box-shadow($key) {
+    .shadow-#{$key} {
+        box-shadow: map-get($box-shadows, $key);
+    }
+}
+
+
+
+// borders
+
+
+// border variables
+
+
+
+$border: (
+    light: $border-light,
+    primary: $border-primary,
+    secondary: $border-secondary,
+    danger: $border-danger,
+    success: $border-success,
+    info: $border-info,
+    warning: $border-warning,
+    dark: $border-dark,
+);
+
+@mixin border($key) {
+    .border-#{$key} {
+        border: map-get($border, $key);
+    }
+}
+
+// transition classes
+
+
+$transitions: (
+    xxs: $transition-xxs,
+    xs: $transition-xs,
+    sm: $transition-sm,
+    md: $transition-md,
+    lg: $transition-lg
+);
+
+@mixin transition($key) {
+    .transition-#{$key} {
+        transition: map-get($transitions, $key);
+    }
+}
+
+
+// direction 
+
+@mixin dynamic-class($name, $property, $value) {
+ 
+    .#{$name}-#{$value} {
+        #{$property}: $value;
+    }
+
+}
+
+
+// text ellipsis
+
+@mixin text-elipsis($line) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+}
+
+
+// gird style
+
+@mixin grid-style() {
+    display: grid;
+    grid-gap: $space-md;
+}
+
+
+
+
+
+
+

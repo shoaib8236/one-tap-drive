@@ -51,6 +51,8 @@ $title-font-lg : 34px;
 
 $font-light: 300;
 $font-normal: 400;
+$font-medium: 500;
+$font-semibold: 600;
 $font-bold: 700;
 $font-bolder: 900;
 
@@ -65,14 +67,14 @@ $breakpoint-xl: 1400px;
 
 // spacing variables
 
-$space-xxs: 5px;
-$space-xs: 10px;
-$space-sm: 15px;
-$space-md: 20px;
-$space-lg: 25px;
-$space-xl: 30px;
-$space-xxl: 35px;
-$space-xxxl: 40px;
+$space-xxs: 12px;
+$space-xs: 18px;
+$space-sm: 24px;
+$space-md: 30px;
+$space-lg: 36px;
+$space-xl: 42px;
+$space-xxl: 48px;
+$space-xxxl: 54px;
 
 // z-index variables
 
@@ -88,14 +90,14 @@ $z-index-9: 900;
 
 // border radius variables
 
-$border-radius-xxs: 2px;
-$border-radius-xs: 4px;
-$border-radius-sm: 6px;
-$border-radius-md: 8px;
-$border-radius-lg: 10px;
-$border-radius-xl: 12px;
-$border-radius-xxl: 14px;
-$border-radius-xxxl: 16px;
+$border-radius-xxs: 4px;
+$border-radius-xs: 8px;
+$border-radius-sm: 12px;
+$border-radius-md: 16px;
+$border-radius-lg: 20px;
+$border-radius-xl: 24px;
+$border-radius-xxl: 28px;
+$border-radius-xxxl: 32px;
 
 
 // box shadow variables
@@ -113,7 +115,11 @@ $box-shadow-xl: 0 0 12px rgba(0, 0, 0, 0.1);
 $border-light: 1px solid $border-color-light;
 $border-dark: 1px solid $border-color-dark;
 $border-primary: 1px solid $primary-color;
-
+$border-secondary: 1px solid $secondary-color;
+$border-danger: 1px solid $danger-color;
+$border-success: 1px solid $success-color;
+$border-info: 1px solid $info-color;
+$border-warning: 1px solid $warning-color;
 
 // transition variables
 
@@ -122,3 +128,4 @@ $transition-xs: 0.2s;
 $transition-sm: 0.3s;
 $transition-md: 0.4s;
 $transition-lg: 0.5s;
+
